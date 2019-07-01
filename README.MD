@@ -10,7 +10,7 @@ sh build.sh
 sh run.sh
 ```
 
-2. docker pull fast
+2. docker pull
 ```
 sh fast-run.sh
 ```
