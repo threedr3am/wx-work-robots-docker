@@ -1,1 +1,1 @@
-docker image build -t "wx-work-robots-call" .
+docker image build -t "threedr3am/wx-work-robots-call" .
