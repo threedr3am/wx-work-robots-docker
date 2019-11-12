@@ -11,5 +11,5 @@ COPY . $ROBOT_DIR
 
 WORKDIR $ROBOT_DIR
 
-CMD nohup java -jar push-work-msg-docker.jar > $LOG_DIR/run.log 2>&1
+CMD nohup java -jar bin/push-work-msg-docker.jar >> $LOG_DIR/run.log 2>&1
 

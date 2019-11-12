@@ -1,3 +1,269 @@
 nohup: ignoring input
 running~~~~~~~~~
 dinner call robot running ...
+weibo hot running ...
+nohup: ignoring input
+running~~~~~~~~~
+dinner call robot running ...
+weather robot running ...
+weibo hot running ...
+ice call robot running ...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:840)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:656)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:250)
+	at com.threedr3am.learn.schedule.WeiboHotTask.getHtml(WeiboHotTask.java:68)
+	at com.threedr3am.learn.schedule.WeiboHotTask.run(WeiboHotTask.java:54)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+nohup: ignoring input
+running~~~~~~~~~
+dinner call robot running ...
+weather robot running ...
+weibo hot running ...
+ice call robot running ...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+nohup: ignoring input
+running~~~~~~~~~
+dinner call robot running ...
+weather robot running ...
+weibo hot running ...
+ice call robot running ...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:994)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:162)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:652)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:250)
+	at com.threedr3am.learn.schedule.WeiboHotTask.getHtml(WeiboHotTask.java:68)
+	at com.threedr3am.learn.schedule.WeiboHotTask.run(WeiboHotTask.java:54)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:505)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975)
+	... 14 more
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:162)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:652)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:250)
+	at com.threedr3am.learn.schedule.WeiboHotTask.getHtml(WeiboHotTask.java:68)
+	at com.threedr3am.learn.schedule.WeiboHotTask.run(WeiboHotTask.java:54)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:994)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:162)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:652)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:250)
+	at com.threedr3am.learn.schedule.WeiboHotTask.getHtml(WeiboHotTask.java:68)
+	at com.threedr3am.learn.schedule.WeiboHotTask.run(WeiboHotTask.java:54)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:505)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975)
+	... 14 more
+nohup: ignoring input
+running~~~~~~~~~
+dinner call robot running ...
+weather robot running ...
+weibo hot running ...
+ice call robot running ...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at com.threedr3am.wxwork.bean.robot.message.MarkdownMessage.appendBold(MarkdownMessage.java:90)
+	at com.threedr3am.learn.schedule.WeatherTask.parseToMsg(WeatherTask.java:115)
+	at com.threedr3am.learn.schedule.WeatherTask.getWeather(WeatherTask.java:71)
+	at com.threedr3am.learn.schedule.WeatherTask.run(WeatherTask.java:45)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at com.threedr3am.wxwork.bean.robot.message.MarkdownMessage.appendBold(MarkdownMessage.java:90)
+	at com.threedr3am.learn.schedule.WeatherTask.parseToMsg(WeatherTask.java:115)
+	at com.threedr3am.learn.schedule.WeatherTask.getWeather(WeatherTask.java:71)
+	at com.threedr3am.learn.schedule.WeatherTask.run(WeatherTask.java:45)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at com.threedr3am.wxwork.bean.robot.message.MarkdownMessage.appendBold(MarkdownMessage.java:90)
+	at com.threedr3am.learn.schedule.WeatherTask.parseToMsg(WeatherTask.java:115)
+	at com.threedr3am.learn.schedule.WeatherTask.getWeather(WeatherTask.java:71)
+	at com.threedr3am.learn.schedule.WeatherTask.run(WeatherTask.java:45)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at com.threedr3am.wxwork.bean.robot.message.MarkdownMessage.appendBold(MarkdownMessage.java:90)
+	at com.threedr3am.learn.schedule.WeatherTask.parseToMsg(WeatherTask.java:115)
+	at com.threedr3am.learn.schedule.WeatherTask.getWeather(WeatherTask.java:71)
+	at com.threedr3am.learn.schedule.WeatherTask.run(WeatherTask.java:45)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at com.threedr3am.wxwork.bean.robot.message.MarkdownMessage.appendBold(MarkdownMessage.java:90)
+	at com.threedr3am.learn.schedule.WeatherTask.parseToMsg(WeatherTask.java:115)
+	at com.threedr3am.learn.schedule.WeatherTask.getWeather(WeatherTask.java:71)
+	at com.threedr3am.learn.schedule.WeatherTask.run(WeatherTask.java:45)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Aug 21, 2019 10:00:16 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://t.weather.sojson.com:80: The target server failed to respond
+Aug 21, 2019 10:00:16 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {}->http://t.weather.sojson.com:80
+Aug 21, 2019 10:00:38 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://t.weather.sojson.com:80: The target server failed to respond
+Aug 21, 2019 10:00:38 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {}->http://t.weather.sojson.com:80
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at com.threedr3am.wxwork.bean.robot.message.MarkdownMessage.appendBold(MarkdownMessage.java:90)
+	at com.threedr3am.learn.schedule.WeatherTask.parseToMsg(WeatherTask.java:115)
+	at com.threedr3am.learn.schedule.WeatherTask.getWeather(WeatherTask.java:71)
+	at com.threedr3am.learn.schedule.WeatherTask.run(WeatherTask.java:45)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at com.threedr3am.wxwork.bean.robot.message.MarkdownMessage.appendBold(MarkdownMessage.java:90)
+	at com.threedr3am.learn.schedule.WeatherTask.parseToMsg(WeatherTask.java:115)
+	at com.threedr3am.learn.schedule.WeatherTask.getWeather(WeatherTask.java:71)
+	at com.threedr3am.learn.schedule.WeatherTask.run(WeatherTask.java:45)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at com.threedr3am.wxwork.bean.robot.message.MarkdownMessage.appendBold(MarkdownMessage.java:90)
+	at com.threedr3am.learn.schedule.WeatherTask.parseToMsg(WeatherTask.java:115)
+	at com.threedr3am.learn.schedule.WeatherTask.getWeather(WeatherTask.java:71)
+	at com.threedr3am.learn.schedule.WeatherTask.run(WeatherTask.java:45)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at com.threedr3am.wxwork.bean.robot.message.MarkdownMessage.appendBold(MarkdownMessage.java:90)
+	at com.threedr3am.learn.schedule.WeatherTask.parseToMsg(WeatherTask.java:115)
+	at com.threedr3am.learn.schedule.WeatherTask.getWeather(WeatherTask.java:71)
+	at com.threedr3am.learn.schedule.WeatherTask.run(WeatherTask.java:45)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Killed
+nohup: ignoring input
+running~~~~~~~~~
+dinner call robot running ...
+weather robot running ...
+weibo hot running ...
+ice call robot running ...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+nohup: ignoring input
+running~~~~~~~~~
+dinner call robot running ...
+weather robot running ...
+weibo hot running ...
+ice call robot running ...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+nohup: ignoring input
+running~~~~~~~~~
+dinner call robot running ...
+weather robot running ...
+weibo hot running ...
+ice call robot running ...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:162)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:652)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:629)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:261)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:250)
+	at com.threedr3am.learn.schedule.WeiboHotTask.getHtml(WeiboHotTask.java:68)
+	at com.threedr3am.learn.schedule.WeiboHotTask.run(WeiboHotTask.java:54)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Sep 16, 2019 10:00:00 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (java.net.SocketException) caught when processing request to {}->http://t.weather.sojson.com:80: Connection reset
+Sep 16, 2019 10:00:00 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {}->http://t.weather.sojson.com:80
